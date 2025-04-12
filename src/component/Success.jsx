@@ -23,7 +23,7 @@ function Success() {
             };
 
             try {
-                const response = await fetch("http://localhost:4000/order/create-order", {
+                const response = await fetch("https://server-blpu.onrender.com/order/create-order", {
                     method: "POST",
                     headers: {
                         'Authorization': `Bearer ${authToken}`,
