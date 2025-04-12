@@ -23,7 +23,7 @@ function ForgotPassPage() {
         try {
             const response = await axios({
                 method: "post",
-                url: `http://localhost:4000/forgot-password`,
+                url: `https://server-blpu.onrender.com/forgot-password`,
                 data: data,
                 headers: {
                     "Content-type": "application/json"
