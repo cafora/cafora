@@ -98,7 +98,7 @@ function Home() {
                       <div className="col-md-4 ml-auto">
                         <div className="img-box">
                           {/* Dynamically use the image from chocolate.images if available */}
-                          <img src={`http://localhost:4000${chocolate.images}`} alt={chocolate.name} />
+                          <img src={`https://server-blpu.onrender.com${chocolate.images}`} alt={chocolate.name} />
                         </div>
                       </div>
                     </div>
@@ -174,7 +174,7 @@ function Home() {
               <div className="box" style={{ width: "30%" }} key={index}>
                 <div className="img-box">
                   {/* Dynamically use chocolate image */}
-                  <img src={`http://localhost:4000${chocolate.images}`} alt={chocolate.name} />
+                  <img src={`https://server-blpu.onrender.com${chocolate.images}`} alt={chocolate.name} />
                 </div>
                 <div className="detail-box">
                   {/* Dynamically use chocolate name and price */}
