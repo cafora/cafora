@@ -25,7 +25,7 @@ function ResetPassPage() {
         try {
             const response = await axios({
                 method: "post",
-                url: `http://localhost:4000/reset-password/${token}`,
+                url: `https://server-blpu.onrender.com/reset-password/${token}`,
                 data: data,
                 headers: {
                     "Content-type": "application/json"
