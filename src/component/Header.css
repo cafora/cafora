@@ -1,0 +1,16 @@
+.user-dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.logout-btn {
+    position: absolute;
+    top: 30px;
+    right: 0;
+    background-color: rgb(68, 37, 37);
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+    border-radius: 5px;
+}
