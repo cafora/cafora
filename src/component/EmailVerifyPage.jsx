@@ -13,7 +13,7 @@ function EmailVerify() {
     useEffect(() => {
         const verifyEmailUrl = async () => {
             try {
-                const url = `http://localhost:4000/${id}/verify/${token}`;
+                const url = `https://server-blpu.onrender.com/${id}/verify/${token}`;
                 const { data } = await axios.get(url);
                 console.log(data);
                 setValidUrl(true);
