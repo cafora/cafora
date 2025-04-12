@@ -112,7 +112,7 @@ function Cart() {
                 <tr key={index}>
                   <td>
                     <img
-                      src={`http://localhost:4000/${item.images}`}
+                      src={`https://server-blpu.onrender.com/${item.images}`}
                       alt={item.name}
                       width="60"
                       className="me-2"
