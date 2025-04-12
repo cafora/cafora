@@ -1,7 +1,7 @@
 // src/services/chocolateService.js
 import axios from 'axios';
 
-const API_URL = 'http://localhost:4000/product';
+const API_URL = 'https://server-blpu.onrender.com/product';
 
 const chocolateService = {
     getAllChocolates: async (authToken,page,limit) => {
