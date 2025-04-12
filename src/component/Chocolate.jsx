@@ -55,7 +55,7 @@ function Chocolate() {
                 >
                   <div className="img-box">
                     <img
-                      src={`http://localhost:4000${chocolate.images}`}
+                      src={`https://server-blpu.onrender.com${chocolate.images}`}
                       alt={chocolate.name}
                       style={{
                         width: "100%",
