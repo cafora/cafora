@@ -89,7 +89,7 @@ function ChocolateDetails() {
         <div className="row">
           <div className="col-md-6">
             <img
-              src={`http://localhost:4000${chocolate.images}`}
+              src={`https://server-blpu.onrender.com/${chocolate.images}`}
               alt={chocolate.name}
               className="img-fluid rounded"
               style={{ maxHeight: "500px", width: "100%", objectFit: "cover" }}
